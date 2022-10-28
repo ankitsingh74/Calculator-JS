@@ -1,0 +1,133 @@
+body {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    overflow: auto;
+ }
+ .bg {
+    width: 22pc;
+    height: 38pc;
+    border: 3px solid rgb(220, 0, 0);
+    border-radius: 7px;
+    background-color: rgb(7, 7, 161);
+    margin: 0% 0%;
+ }
+ h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #f10606;
+    font: 2pc times new roman;
+    
+ }
+ .article {
+    width: 18pc;
+    height: 4pc;
+    border: 2px solid rgb(128, 4, 0);
+    border-radius: 7px;
+    background-color: rgba(238, 238, 238, 0.985);
+    text-align: right;
+    letter-spacing: 2px;
+    margin: 0pc 1pc;
+    color: #ff3d07;
+    font-size: 60px;
+    overflow: auto;
+    display: inline-block;
+ }
+ .art {
+    width: 18pc;
+    height: 25pc;
+    border: 2px solid green;
+    border-radius: 7px;
+    background-color: rgb(224, 239, 8);
+    margin: 1pc 1pc;
+    display: flex;
+ }
+ .diva, .divb {
+    width: 3pc;
+    height: 4pc;
+    border: 2px solid green;
+    border-radius: 7px;
+    background-color: white;
+    margin: 0.8pc 0.2pc;
+    position: relative;
+    left: 0.5pc;
+    color: #070976;
+    font: 55px body;
+    text-align: center;
+ }
+ .diva:hover {
+    background-color: green;
+    transition-duration: 0ms;
+    color: white;
+ }
+ .divb {
+    width: 5.3pc;
+ }
+ .divb:hover {
+    background-color: green;
+    transition-duration: 0ms;
+    color: white;
+ }
+ .art2 {
+    display: flex;
+    position: absolute;
+    left: 2.2pc;
+    top: 16pc;
+ }
+ .art3 {
+    display: flex;
+    position: absolute;
+    left: 2.2pc;
+    top: 20.5pc;
+ }
+ .art4 {
+    display: flex;
+    position: absolute;
+    left: 2.2pc;
+    top: 25pc;
+ }
+ .art5 {
+    display: flex;
+    position: absolute;
+    left: 2.2pc;
+    top: 29.5pc;
+ }
+ .divc, .divd, .dive{
+    width: 3pc;
+    height: 4pc;
+    border: 2px solid green;
+    border-radius: 7px;
+    background-color: white;
+    margin: 0.6pc 0.2pc;
+    color: #000147;
+    font: 55px body;
+    text-align: center;
+ }
+ .divc:hover {
+    background-color: green;
+    transition-duration: 0ms;
+    color: white;
+ }
+ .dive:hover {
+    background-color: green;
+    transition-duration: 0ms;
+    color: white;
+ }
+ .divd:hover {
+    background-color: green;
+    transition-duration: 0ms;
+    color: white;
+ }
+ .dive:hover {
+    background-color: green;
+    transition-duration: 0ms;
+    color: white;
+ }
+ .divd {
+    width: 5.3pc;
+ }
+ .dive {
+    width: 5.3pc;
+    height: 4pc;
+ }
